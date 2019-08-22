@@ -1,14 +1,14 @@
-# ethlance
+# tomolance
 
 [![Build Status](https://travis-ci.org/district0x/ethlance.svg?branch=master)](https://travis-ci.org/district0x/ethlance)
 
-Repository for [ethlance.com](http://ethlance.com)
+Repository for [tomolance.com](https://tomolance.com)
 
-Ethlance is the first job market platform written in [ClojureScript](https://clojurescript.org/) and [Solidity](https://solidity.readthedocs.io/en/develop/) working completely on the [Ethereum](https://ethereum.org/) blockchain with 0% service fees.
+Tomolance is the first job market platform written in [ClojureScript](https://clojurescript.org/) and [Solidity](https://solidity.readthedocs.io/en/develop/) working completely on the [Ethereum](https://ethereum.org/) blockchain with 0% service fees.
 
-Ethereum Smart Contracts are at `/resources/public/contracts/src`.
+TomoChain Smart Contracts are at `/resources/public/contracts/src`.
 
-# Using Ethlance
+# Using Tomolance
 
 ## MetaMask
 
