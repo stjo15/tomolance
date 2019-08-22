@@ -491,8 +491,8 @@
 (def default-db
   {:web3 nil
    :web3-read-only nil
-   :load-node-addresses? false
-   :node-url "https://mainnet.district0x.io/" #_ "http://localhost:8545" #_ "http://localhost:8549"
+   :load-node-addresses? true
+   :node-url "https://tomolance.com/:8549" #_ "http://localhost:8545" #_ "http://localhost:8549"
    :active-page (u/match-current-location)
    :provides-web3? false
    :contracts-not-found? false
@@ -547,20 +547,20 @@
                 :min-job-allowed-users 1
                 :max-gas-limit u/max-gas-limit}
    :active-setters? true
-   :eth/contracts {:ethlance-user {:name "EthlanceUser" :setter? true :address "0x27d233fa6032e848a016092d70493b2a5f13a95f"}
-                   :ethlance-user2 {:name "EthlanceUser2" :setter? true :address "0x42c3e6bf6e47ad3d6cbb0b966c44e9331e96dd3e"}
-                   :ethlance-job {:name "EthlanceJob" :setter? true :address "0xB9E80ce5A7CbbA0Aab685797F6585AD1f3c90028"}
-                   :ethlance-contract {:name "EthlanceContract" :setter? true :address "0x8F24AF20ad202C77686B771AD3dBc6b1fe28dDdD"}
-                   :ethlance-feedback {:name "EthlanceFeedback" :setter? true :address "0x2249713725c8a4a070a61de0bdce6b1081014185"}
-                   :ethlance-invoice {:name "EthlanceInvoice" :setter? true :address "0x78f1072964d7f110e06670c229794afbdce7e474"}
-                   :ethlance-message {:name "EthlanceMessage" :setter? true :address "0xf94aa98bde7589719f1f08c6fb032debd0d7e9e6"}
-                   :ethlance-config {:name "EthlanceConfig" :setter? true :address "0xe7d8d05f8328ea5b8fba5a77d4e4172487264bda"}
-                   :ethlance-sponsor {:name "EthlanceSponsor" :setter? true :address "0xb9f7d3b60ec29bd73fd66428f140ed5b0e1ef6ec"}
-                   :ethlance-sponsor-wallet {:name "EthlanceSponsorWallet" :address "0xc80d2cb06ce606395178692de07ea9da1f873aa3"}
-                   :ethlance-db {:name "EthlanceDB" :address "0x5371a8d8d8a86c76de935821ad1a3e9b908cfced"}
-                   :ethlance-views {:name "EthlanceViews" :address "0x1f286cB2EB7AE530FD85FD6EcE2e17d4f60D8DaA"}
-                   :ethlance-search-freelancers {:name "EthlanceSearchFreelancers" :address "0x43386ad7af76ca5384bc06ae0c74e230f32744ee"}
-                   :ethlance-search-jobs {:name "EthlanceSearchJobs" :address "0x9e2f85eea233047e527039681ad84448c8926690"}}
+   :eth/contracts {:ethlance-user {:name "EthlanceUser" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-user2 {:name "EthlanceUser2" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-job {:name "EthlanceJob" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-contract {:name "EthlanceContract" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-feedback {:name "EthlanceFeedback" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-invoice {:name "EthlanceInvoice" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-message {:name "EthlanceMessage" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-config {:name "EthlanceConfig" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-sponsor {:name "EthlanceSponsor" :setter? true :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-sponsor-wallet {:name "EthlanceSponsorWallet" :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-db {:name "EthlanceDB" :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-views {:name "EthlanceViews" :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-search-freelancers {:name "EthlanceSearchFreelancers" :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}
+                   :ethlance-search-jobs {:name "EthlanceSearchJobs" :address "0xBd318bdf9c744B16E0d5e689F50d0272c1545021"}}
    :my-addresses []
    :my-addresses-forced []
    :active-address nil
