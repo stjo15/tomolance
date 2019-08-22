@@ -14,7 +14,7 @@ TomoChain Smart Contracts are at `/resources/public/contracts/src`.
 
 1. Download the [MetaMask](https://metamask.io/) Chrome extension
 2. Create a wallet and fund it with some [Ether](https://ethereum.stackexchange.com/questions/1915/how-do-i-buy-ethereum-with-usd)
-3. Go on [Ethlance](http://ethlance.com/)
+3. Go on [Tomolance](https://tomolance.com/)
 
 # Running on localhost
 
