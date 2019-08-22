@@ -31,7 +31,7 @@
       "The future of work is now"]
      [:h3.bolder.sm-font-1-5em.md-font-1-7em
       {:style styles/landing-subtitle}
-      "hire or work for Ether cryptocurrency"]
+      "hire or work for TOMO cryptocurrency"]
      [row-plain
       {:center "xs"
        :style {:margin-top 32}}
